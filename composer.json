@@ -1,0 +1,22 @@
+{
+    "name": "eden/linkedin",
+    "type": "library",
+    "description": "Eden linkedin component",
+    "keywords": ["eden", "library", "linkedin"],
+    "homepage": "http://eden-php.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Renandro Valparaiso",
+            "email": "valparaisoRenandro@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.1",
+		"eden/core": "1.*"
+    },
+    "autoload": {
+         "psr-0": { "Eden\\Linkedin": "" }
+    },
+	"target-dir": "Eden/Linkedin"
+}
